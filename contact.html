@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact — NEST</title>
+  <meta name="description" content="Contact NEST Pilates & Yoga. Join beginner-friendly classes on Google Meet." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container nav">
+      <a class="brand" href="index.html"><span class="brand-mark">🪺</span><span class="brand-name">NEST</span><span class="brand-sub">Pilates & Yoga</span></a>
+      <nav class="menu">
+        <a href="classes.html">Classes</a>
+        <a href="about.html">About</a>
+        <a class="active" href="contact.html">Contact</a>
+        <a class="btn btn-primary" href="classes.html">Schedule</a>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">☰</button>
+    </div>
+    <div class="mobile-menu container" id="mobileMenu" aria-hidden="true">
+      <a href="classes.html">Classes</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a class="btn btn-primary" href="classes.html">Schedule</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="section">
+      <div class="container">
+        <h1>Contact & Join</h1>
+        <p class="lead">Send a message to join the free trial or monthly plan. We’ll reply with your Google Meet link.</p>
+
+        <div class="grid-2">
+          <div class="card">
+            <h2>Message NEST</h2>
+
+            <!-- This form opens the user's email app (no server needed) -->
+            <form class="form" id="contactForm">
+              <label>
+                Name
+                <input required name="name" placeholder="Your name" />
+              </label>
+              <label>
+                Email
+                <input required type="email" name="email" placeholder="you@example.com" />
+              </label>
+              <label>
+                Time zone
+                <input name="tz" placeholder="e.g., UTC+1 / London / New York" />
+              </label>
+              <label>
+                Goal
+                <select name="goal">
+                  <option value="Beginner strength + flexibility">Beginner strength + flexibility</option>
+                  <option value="Posture + core">Posture + core</option>
+                  <option value="Stress relief + mobility">Stress relief + mobility</option>
+                  <option value="Gentle routine">Gentle routine</option>
+                </select>
+              </label>
+              <label>
+                Message
+                <textarea name="msg" rows="4" placeholder="Any injuries or requests? (optional)"></textarea>
+              </label>
+
+              <button class="btn btn-primary w-100" type="submit">Send</button>
+              <p class="tiny muted">This will open your email app to send the message.</p>
+            </form>
+          </div>
+
+          <div class="card">
+            <h2>Other Ways</h2>
+            <p class="muted">Replace these with your real accounts.</p>
+            <ul class="bullets">
+              <li>Instagram: <a href="#" target="_blank" rel="noreferrer">instagram.com/yourhandle</a></li>
+              <li>WhatsApp: <a href="#" target="_blank" rel="noreferrer">Click to chat</a></li>
+              <li>Email: <a href="mailto:hello@yourdomain.com">hello@yourdomain.com</a></li>
+            </ul>
+
+            <div class="section-gap"></div>
+
+            <div class="notice">
+              <h3>What happens after you join?</h3>
+              <ul class="bullets">
+                <li>We send your Google Meet link</li>
+                <li>We share the schedule & class rules</li>
+                <li>You join 5 minutes early and start gently</li>
+              </ul>
+            </div>
+
+            <div class="section-gap"></div>
+
+            <p class="tiny muted">
+              Disclaimer: General fitness only. Consult a professional if you have medical concerns.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container tiny muted">© <span id="year"></span> NEST</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
