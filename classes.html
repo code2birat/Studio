@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Classes — NEST</title>
+  <meta name="description" content="Beginner-friendly Pilates & Yoga classes for women. Live on Google Meet." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container nav">
+      <a class="brand" href="index.html"><span class="brand-mark">🪺</span><span class="brand-name">NEST</span><span class="brand-sub">Pilates & Yoga</span></a>
+      <nav class="menu">
+        <a class="active" href="classes.html">Classes</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a class="btn btn-primary" href="contact.html">Join</a>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">☰</button>
+    </div>
+    <div class="mobile-menu container" id="mobileMenu" aria-hidden="true">
+      <a href="classes.html">Classes</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a class="btn btn-primary" href="contact.html">Join</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="section">
+      <div class="container">
+        <h1>Classes</h1>
+        <p class="lead">Live beginner-friendly Pilates + Yoga on Google Meet. Supportive, calm, and easy to follow.</p>
+
+        <div class="grid-3">
+          <div class="card">
+            <h3>Gentle Pilates</h3>
+            <p>Core, posture, and strength with slow, safe progressions.</p>
+            <p class="tiny muted">Level: Beginner • 60 min</p>
+          </div>
+          <div class="card">
+            <h3>Pilates + Yoga Flow</h3>
+            <p>Balanced mix: Pilates core + Yoga mobility + breath.</p>
+            <p class="tiny muted">Level: Beginner • 60 min</p>
+          </div>
+          <div class="card">
+            <h3>Stretch & Relax</h3>
+            <p>Gentle stretching, hips/back release, and breathing.</p>
+            <p class="tiny muted">Level: Beginner • 45–60 min</p>
+          </div>
+        </div>
+
+        <div class="section-gap"></div>
+
+        <h2>Weekly Schedule (Example)</h2>
+        <p class="muted">Replace with your real days/times. You can list times in UTC and suggest time-zone conversion.</p>
+
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Day</th>
+                <th>Class</th>
+                <th>Time (UTC)</th>
+                <th>Duration</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Monday</td>
+                <td>Gentle Pilates</td>
+                <td>18:00</td>
+                <td>60 min</td>
+              </tr>
+              <tr>
+                <td>Wednesday</td>
+                <td>Pilates + Yoga Flow</td>
+                <td>18:00</td>
+                <td>60 min</td>
+              </tr>
+              <tr>
+                <td>Saturday</td>
+                <td>Stretch & Relax</td>
+                <td>16:00</td>
+                <td>45–60 min</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="section-gap"></div>
+
+        <div class="notice">
+          <h3>What you need</h3>
+          <ul class="bullets">
+            <li>Yoga mat</li>
+            <li>Comfortable clothes</li>
+            <li>Water</li>
+            <li>Optional: small pillow / towel</li>
+          </ul>
+        </div>
+
+        <div class="section-gap"></div>
+
+        <a class="btn btn-primary" href="contact.html">Join a Free Trial</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container tiny muted">© <span id="year"></span> NEST</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

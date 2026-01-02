@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>NEST — Pilates & Yoga</title>
+  <meta name="description" content="NEST is a safe space for beginner-friendly Pilates & Yoga for women worldwide. Live classes on Google Meet." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="container nav">
+      <a class="brand" href="index.html" aria-label="NEST Home">
+        <span class="brand-mark">🪺</span>
+        <span class="brand-name">NEST</span>
+        <span class="brand-sub">Pilates & Yoga</span>
+      </a>
+
+      <nav class="menu" aria-label="Primary">
+        <a href="classes.html">Classes</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <button class="btn btn-primary" id="openTrial">Join Free Trial</button>
+      </nav>
+
+      <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">☰</button>
+    </div>
+
+    <div class="mobile-menu container" id="mobileMenu" aria-hidden="true">
+      <a href="classes.html">Classes</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <button class="btn btn-primary" id="openTrialMobile">Join Free Trial</button>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="pill">Beginner-friendly • Women-focused • International</p>
+          <h1>A Safe Space to Move & Breathe</h1>
+          <p class="lead">
+            Gentle Pilates + Yoga designed for beginners and women worldwide.
+            Live classes on Google Meet — supportive, calm, and easy to follow.
+          </p>
+          <div class="hero-actions">
+            <button class="btn btn-primary" id="openTrialHero">Join Free Trial</button>
+            <a class="btn btn-ghost" href="classes.html">View Class Schedule</a>
+          </div>
+
+          <div class="hero-points">
+            <div class="mini-card">
+              <h3>Gentle Strength</h3>
+              <p>Pilates-based core + posture without pressure.</p>
+            </div>
+            <div class="mini-card">
+              <h3>Calm Mobility</h3>
+              <p>Yoga flows + stretching for stress relief.</p>
+            </div>
+            <div class="mini-card">
+              <h3>Live Guidance</h3>
+              <p>Clear cues and beginner-safe modifications.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-card">
+          <h2>Start This Week</h2>
+          <ul class="checklist">
+            <li>60-minute live sessions</li>
+            <li>Beginner & women-friendly</li>
+            <li>Small group feel</li>
+            <li>Join from anywhere</li>
+          </ul>
+
+          <div class="price-box">
+            <div>
+              <p class="price-label">Monthly</p>
+              <p class="price">$35–$50</p>
+              <p class="muted">8–12 classes</p>
+            </div>
+            <div>
+              <p class="price-label">Single</p>
+              <p class="price">$8–$12</p>
+              <p class="muted">per class</p>
+            </div>
+          </div>
+
+          <button class="btn btn-primary w-100" id="openTrialCard">Join Free Trial</button>
+          <p class="tiny muted">No extreme workouts. No judgment. Just supportive movement.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- HOW IT WORKS -->
+    <section class="section">
+      <div class="container">
+        <h2>How It Works</h2>
+        <div class="grid-3">
+          <div class="card">
+            <h3>1) Sign Up</h3>
+            <p>Send a quick message to join the free trial or monthly plan.</p>
+          </div>
+          <div class="card">
+            <h3>2) Get the Link</h3>
+            <p>You’ll receive your Google Meet link and schedule details.</p>
+          </div>
+          <div class="card">
+            <h3>3) Move & Breathe</h3>
+            <p>Join live classes, follow cues, and rest anytime.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOR WHO -->
+    <section class="section section-soft">
+      <div class="container">
+        <h2>Perfect for You If…</h2>
+        <div class="grid-2">
+          <div class="card">
+            <ul class="bullets">
+              <li>You’re a beginner and want safe guidance</li>
+              <li>You want strength + flexibility without intensity</li>
+              <li>You sit a lot and want better posture</li>
+              <li>You want a calm routine that feels good</li>
+            </ul>
+          </div>
+          <div class="card">
+            <ul class="bullets">
+              <li>You prefer supportive classes (not loud gym vibes)</li>
+              <li>You want gentle movement at home</li>
+              <li>You want consistency and structure</li>
+              <li>You want a women-focused community feel</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SAFETY -->
+    <section class="section">
+      <div class="container">
+        <div class="notice">
+          <h3>Safety First</h3>
+          <p>
+            Classes are for general fitness only. If you are pregnant, injured,
+            or have medical conditions, please consult a healthcare professional.
+            Stop any movement that causes pain.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <p class="footer-brand">🪺 NEST</p>
+        <p class="muted">Pilates & Yoga — a safe space to move & breathe.</p>
+      </div>
+      <div class="footer-links">
+        <a href="classes.html">Classes</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="footer-links">
+        <a href="#" id="openTrialFooter">Join Free Trial</a>
+        <a href="contact.html">Instagram / WhatsApp</a>
+      </div>
+    </div>
+    <div class="container tiny muted">© <span id="year"></span> NEST. All rights reserved.</div>
+  </footer>
+
+  <!-- TRIAL MODAL -->
+  <div class="modal" id="trialModal" aria-hidden="true" role="dialog" aria-labelledby="trialTitle">
+    <div class="modal-backdrop" data-close="true"></div>
+    <div class="modal-card">
+      <div class="modal-head">
+        <h2 id="trialTitle">Join the Free Trial Class</h2>
+        <button class="icon-btn" id="closeTrial" aria-label="Close">✕</button>
+      </div>
+
+      <form class="form" id="trialForm">
+        <label>
+          Name
+          <input required name="name" placeholder="Your name" />
+        </label>
+        <label>
+          Email
+          <input required type="email" name="email" placeholder="you@example.com" />
+        </label>
+        <label>
+          Time zone (optional)
+          <input name="tz" placeholder="e.g., UTC+1 / New York / Kathmandu" />
+        </label>
+        <label>
+          Message (optional)
+          <textarea name="msg" rows="3" placeholder="Any goals or injuries?"></textarea>
+        </label>
+
+        <!-- Replace these with your real links -->
+        <div class="small-note">
+          After submit, we’ll open your email app to send your request.
+          You can also DM on Instagram.
+        </div>
+
+        <button class="btn btn-primary w-100" type="submit">Send Request</button>
+        <p class="tiny muted">
+          By joining, you agree this is general fitness only and you’ll move at your own pace.
+        </p>
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
